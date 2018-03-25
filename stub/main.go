@@ -3,7 +3,7 @@
 package main
 
 import (
-	_ "github.com/polyswarm/polyswarm/migrations"
+	_ "github.com/blasty/polyswarm/migrations"
 	"github.com/polyswarm/perigord/stub"
 )
 

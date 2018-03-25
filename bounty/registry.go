@@ -19,7 +19,7 @@ import (
 
 	"github.com/polyswarm/perigord"
 	"github.com/polyswarm/perigord/contract"
-	"github.com/polyswarm/polyswarm/bindings"
+	"github.com/blasty/polyswarm/bindings"
 
 	"github.com/satori/go.uuid"
 )

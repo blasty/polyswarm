@@ -10,8 +10,8 @@ import (
 	"github.com/polyswarm/perigord/network"
 	"github.com/polyswarm/perigord/testing"
 
-	"github.com/polyswarm/polyswarm/bindings"
-	"github.com/polyswarm/polyswarm/bounty"
+	"github.com/blasty/polyswarm/bindings"
+	"github.com/blasty/polyswarm/bounty"
 )
 
 const IPFS_HOST = "localhost:5001"

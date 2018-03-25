@@ -15,7 +15,7 @@ import (
 	"github.com/polyswarm/perigord/migration"
 	"github.com/polyswarm/perigord/network"
 
-	"github.com/polyswarm/polyswarm/bindings"
+	"github.com/blasty/polyswarm/bindings"
 )
 
 func BuyNectar(address common.Address, network *network.Network) error {

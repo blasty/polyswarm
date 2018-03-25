@@ -10,13 +10,13 @@ RUN set -x && \
         python-pip && \
     rm -rf /var/lib/apt/lists/*
 
-RUN mkdir -p /go/src/github.com/polyswarm/polyswarm
+RUN mkdir -p /go/src/github.com/blasty/polyswarm
 ENV GOPATH=/go
-ADD . /go/src/github.com/polyswarm/polyswarm
+ADD . /go/src/github.com/blasty/polyswarm
 
 ADD /scripts/keystore /keystore
 
-WORKDIR /go/src/github.com/polyswarm/polyswarm
+WORKDIR /go/src/github.com/blasty/polyswarm
 RUN set -x && \
     mv perigord-docker.yaml perigord.yaml && \
     perigord build && \

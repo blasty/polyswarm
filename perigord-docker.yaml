@@ -1,4 +1,4 @@
-project: github.com/polyswarm/polyswarm
+project: github.com/blasty/polyswarm
 license: Apache 2.0
 
 networks:
@@ -7,4 +7,4 @@ networks:
         keystore: /ethereum/keystore
     rinkeby:
         url: /root/.ethereum/rinkeby/geth.ipc
-        keystore: /go/src/github.com/polyswarm/polyswarm/keystore
+        keystore: /go/src/github.com/blasty/polyswarm/keystore

@@ -19,9 +19,9 @@ import (
 	"github.com/polyswarm/perigord/migration"
 	"github.com/polyswarm/perigord/network"
 
-	"github.com/polyswarm/polyswarm/bindings"
-	"github.com/polyswarm/polyswarm/bounty"
-	_ "github.com/polyswarm/polyswarm/migrations"
+	"github.com/blasty/polyswarm/bindings"
+	"github.com/blasty/polyswarm/bounty"
+	_ "github.com/blasty/polyswarm/migrations"
 
 	"github.com/satori/go.uuid"
 

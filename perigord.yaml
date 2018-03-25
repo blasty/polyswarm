@@ -1,10 +1,10 @@
-project: github.com/polyswarm/polyswarm
+project: github.com/blasty/polyswarm
 license: Apache 2.0
 
 networks:
     dev:
-        url: /home/user/go/src/github.com/polyswarm/polyswarm/priv_testnet/geth.ipc
-        keystore: /home/user/go/src/github.com/polyswarm/polyswarm/priv_testnet/keystore
+        url: /home/user/go/src/github.com/blasty/polyswarm/priv_testnet/geth.ipc
+        keystore: /home/user/go/src/github.com/blasty/polyswarm/priv_testnet/keystore
     rinkeby:
         url: /home/user/.ethereum/rinkeby/geth.ipc
         keystore: /home/user/.ethereum/rinkeby/keystore

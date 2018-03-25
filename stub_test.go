@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	_ "github.com/polyswarm/polyswarm/tests"
-	_ "github.com/polyswarm/polyswarm/migrations"
+	_ "github.com/blasty/polyswarm/tests"
+	_ "github.com/blasty/polyswarm/migrations"
 	. "gopkg.in/check.v1"
 )
 
