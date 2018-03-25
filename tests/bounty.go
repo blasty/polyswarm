@@ -6,9 +6,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/polyswarm/perigord/contract"
-	"github.com/polyswarm/perigord/network"
-	"github.com/polyswarm/perigord/testing"
+	"github.com/blasty/perigord/contract"
+	"github.com/blasty/perigord/network"
+	"github.com/blasty/perigord/testing"
 
 	"github.com/blasty/polyswarm/bindings"
 	"github.com/blasty/polyswarm/bounty"

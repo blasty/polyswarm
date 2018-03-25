@@ -15,9 +15,9 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
 
-	"github.com/polyswarm/perigord/contract"
-	"github.com/polyswarm/perigord/migration"
-	"github.com/polyswarm/perigord/network"
+	"github.com/blasty/perigord/contract"
+	"github.com/blasty/perigord/migration"
+	"github.com/blasty/perigord/network"
 
 	"github.com/blasty/polyswarm/bindings"
 	"github.com/blasty/polyswarm/bounty"

@@ -10,10 +10,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/polyswarm/perigord"
-	"github.com/polyswarm/perigord/contract"
-	"github.com/polyswarm/perigord/migration"
-	"github.com/polyswarm/perigord/network"
+	"github.com/blasty/perigord"
+	"github.com/blasty/perigord/contract"
+	"github.com/blasty/perigord/migration"
+	"github.com/blasty/perigord/network"
 
 	"github.com/blasty/polyswarm/bindings"
 )

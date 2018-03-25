@@ -17,8 +17,8 @@ import (
 
 	"haxx.in/go-ipfs-api"
 
-	"github.com/polyswarm/perigord"
-	"github.com/polyswarm/perigord/contract"
+	"github.com/blasty/perigord"
+	"github.com/blasty/perigord/contract"
 	"github.com/blasty/polyswarm/bindings"
 
 	"github.com/satori/go.uuid"
