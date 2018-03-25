@@ -15,7 +15,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	"github.com/polyswarm/go-ipfs-api"
+	"haxx.in/go-ipfs-api"
 
 	"github.com/polyswarm/perigord"
 	"github.com/polyswarm/perigord/contract"
