@@ -176,10 +176,10 @@ func (_Migrations *MigrationsTransactorRaw) Transact(opts *bind.TransactOpts, me
 	return _Migrations.Contract.contract.Transact(opts, method, params...)
 }
 
-// Last_completed_migration is a free data retrieval call binding the contract method 0xfbdbad3c.
+// LastCompletedMigration is a free data retrieval call binding the contract method 0xfbdbad3c.
 //
 // Solidity: function lastCompletedMigration() constant returns(uint256)
-func (_Migrations *MigrationsCaller) Last_completed_migration(opts *bind.CallOpts) (*big.Int, error) {
+func (_Migrations *MigrationsCaller) LastCompletedMigration(opts *bind.CallOpts) (*big.Int, error) {
 	var (
 		ret0 = new(*big.Int)
 	)
@@ -188,18 +188,18 @@ func (_Migrations *MigrationsCaller) Last_completed_migration(opts *bind.CallOpt
 	return *ret0, err
 }
 
-// Last_completed_migration is a free data retrieval call binding the contract method 0xfbdbad3c.
+// LastCompletedMigration is a free data retrieval call binding the contract method 0xfbdbad3c.
 //
 // Solidity: function lastCompletedMigration() constant returns(uint256)
-func (_Migrations *MigrationsSession) Last_completed_migration() (*big.Int, error) {
-	return _Migrations.Contract.Last_completed_migration(&_Migrations.CallOpts)
+func (_Migrations *MigrationsSession) LastCompletedMigration() (*big.Int, error) {
+	return _Migrations.Contract.LastCompletedMigration(&_Migrations.CallOpts)
 }
 
-// Last_completed_migration is a free data retrieval call binding the contract method 0xfbdbad3c.
+// LastCompletedMigration is a free data retrieval call binding the contract method 0xfbdbad3c.
 //
 // Solidity: function lastCompletedMigration() constant returns(uint256)
-func (_Migrations *MigrationsCallerSession) Last_completed_migration() (*big.Int, error) {
-	return _Migrations.Contract.Last_completed_migration(&_Migrations.CallOpts)
+func (_Migrations *MigrationsCallerSession) LastCompletedMigration() (*big.Int, error) {
+	return _Migrations.Contract.LastCompletedMigration(&_Migrations.CallOpts)
 }
 
 // Owner is a free data retrieval call binding the contract method 0x8da5cb5b.
